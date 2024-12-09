@@ -1,13 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TriviaIvanCherkes.MainPage">
+             x:Class="TriviaIvanCherkes.MainPage"
+                Title="">
+    
 
     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"
-            Spacing="25">
-            
+            Spacing="25"
+            HorizontalOptions="Center">
+        
+
+            <Image Source="trivia.jpg" WidthRequest="200" HeightRequest="200"/>
+            <Label HorizontalOptions="Center" HorizontalTextAlignment="Center" FontAttributes="Bold" Text="Welcome! Let's start with how many players will play?" FontSize="20"/>
+            <Grid RowDefinitions="*,*" ColumnDefinitions="*,*" ColumnSpacing="10" RowSpacing="10">
+                <Button Text="1" FontSize="30" Grid.Row="0" Grid.Column="0"/>
+                <Button Text="2" FontSize="30" Grid.Row="0" Grid.Column="1" BackgroundColor="#FF748B"/>
+                <Button Text="3" FontSize="30" Grid.Row="1" Grid.Column="0" BackgroundColor="#8EB486"/>
+                <Button Text="4" FontSize="30" Grid.Row="1" Grid.Column="1" BackgroundColor="#0A97B0"/>
+            </Grid>
+
+            <ImageButton Source="settings.png" x:Name="SettingsBtn" Clicked="SettingsBtn_Clicked" WidthRequest="50" HeightRequest="50" VerticalOptions="End" Background="Transparent"/>
         </VerticalStackLayout>
     </ScrollView>
 

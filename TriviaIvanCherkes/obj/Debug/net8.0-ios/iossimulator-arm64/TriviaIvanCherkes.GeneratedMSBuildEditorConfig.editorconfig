@@ -28,6 +28,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = TriviaIvanCherkes.AppShell
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[/Users/zsutop/CrossPlatform/TriviaIvanCherkes/TriviaIvanCherkes/Game.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TriviaIvanCherkes.Game.xaml
+build_metadata.AdditionalFiles.TargetPath = Game.xaml
+build_metadata.AdditionalFiles.RelativePath = Game.xaml
+
 [/Users/zsutop/CrossPlatform/TriviaIvanCherkes/TriviaIvanCherkes/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TriviaIvanCherkes.MainPage.xaml
@@ -45,3 +51,15 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TriviaIvanCherkes.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/zsutop/CrossPlatform/TriviaIvanCherkes/TriviaIvanCherkes/Results.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TriviaIvanCherkes.Results.xaml
+build_metadata.AdditionalFiles.TargetPath = Results.xaml
+build_metadata.AdditionalFiles.RelativePath = Results.xaml
+
+[/Users/zsutop/CrossPlatform/TriviaIvanCherkes/TriviaIvanCherkes/Settings.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TriviaIvanCherkes.Settings.xaml
+build_metadata.AdditionalFiles.TargetPath = Settings.xaml
+build_metadata.AdditionalFiles.RelativePath = Settings.xaml
